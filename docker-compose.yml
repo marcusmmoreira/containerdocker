@@ -12,9 +12,5 @@ services:
        WORDPRESS_DB_NAME: marcusmm
        WORDPRESS_DB_USER: root
        WORDPRESS_DB_PASSWORD: somewordpress
-     networks:
-       - dacs2018
-networks:
-  dacs2018:
-    external:
-       name: dacs2018
+     
+      
