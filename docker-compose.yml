@@ -6,13 +6,15 @@ services:
     image: wordpress
     restart: always
     ports:
-      - 81:80
+      - 80:80
     environment:
       WORDPRESS_DB_PASSWORD: example
 
   mysql:
     image: mysql:5.7
     restart: always
+    ports:
+      - 3306:3306
     environment:
       MYSQL_ROOT_PASSWORD: example
       
