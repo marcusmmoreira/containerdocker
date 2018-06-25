@@ -2,9 +2,9 @@ version: '3.0'
 
 services:
    wordpress:
-     image: marcusmm:wordpress
+     image: wordpress
      ports:
-       - "8033:80"
+       - "80:80"
      restart: always
      environment:
        WORDPRESS_DB_HOST: wordpress:8033
