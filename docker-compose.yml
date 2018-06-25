@@ -6,7 +6,7 @@ services:
     image: wordpress
     restart: always
     ports:
-      - 80:80
+      - 81:80
     environment:
       WORDPRESS_DB_PASSWORD: example
 
