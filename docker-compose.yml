@@ -1,0 +1,22 @@
+version : '3.1'
+
+service: 
+
+   WordPress:
+      image: WordPress
+      ports:
+        -80:80
+
+   MySQL:
+      image: MySQL:5.7
+      ports:
+        -3306:3306
+      environment:
+        MYSQL_ROOT_PASSWORD: root
+
+
+
+
+
+
+    
